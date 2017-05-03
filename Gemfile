@@ -89,6 +89,6 @@ group :test do
 end
 
 group :production do
-  gem 'pg'
+  gem  'mysql2', '~> 0.4.5'
   gem 'sqlite3'
 end
